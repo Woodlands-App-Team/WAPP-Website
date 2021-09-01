@@ -1,0 +1,11 @@
+.team-card {
+    border-radius: 25px;
+    box-shadow: 5px 13px 21px -1px rgba(0,0,0,0.32);
+    height: 100%;
+}
+
+.team-image {
+    border-radius: 20px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}

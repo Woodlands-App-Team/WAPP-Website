@@ -5,12 +5,38 @@ $primary: variables.$primary;
 $secondary: variables.$secondary;
 
 $container-max-widths: (
-        sm: 540px,
-        md: 720px,
-        lg: 930px,
-        xl: 1100px,
-        xxl: 1230px
+    sm: 540px,
+    md: 720px,
+    lg: 930px,
+    xl: 1100px,
+    xxl: 1230px
 );
 
-
 @import "../bootstrap/scss/bootstrap.scss";
+
+@font-face {
+    font-family: 'Poppins' ;
+    src: url('/assets/font/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nunito_Sans' ;
+    src: url('/assets/font/Nunito_Sans/NunitoSans-Regular.ttf') format('truetype');
+}
+
+* {
+    font-family: 'Nunito_Sans';
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins";
+}
+
+.title {
+    color: red;
+}
+
+.navbar {
+    background-color: transparent;
+}

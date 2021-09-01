@@ -10746,5 +10746,28 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/font/Poppins/Poppins-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Nunito_Sans";
+  src: url("/assets/font/Nunito_Sans/NunitoSans-Regular.ttf") format("truetype");
+}
+* {
+  font-family: "Nunito_Sans";
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: "Poppins";
+}
+
+.title {
+  color: red;
+}
+
+.navbar {
+  background-color: transparent;
+}
 
 /*# sourceMappingURL=main.css.map */
