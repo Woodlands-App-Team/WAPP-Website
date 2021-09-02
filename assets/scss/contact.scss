@@ -1,0 +1,9 @@
+.hoodie-img {
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .hoodie-img {
+        width: 100%;
+    }
+  }
