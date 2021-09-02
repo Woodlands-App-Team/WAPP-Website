@@ -10770,4 +10770,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   background-color: transparent;
 }
 
+body {
+  background-color: #e7e7e7;
+}
+
+.nav-item {
+  margin-right: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=main.css.map */
