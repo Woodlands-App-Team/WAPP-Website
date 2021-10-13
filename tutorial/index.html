@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/css/contact.css">
-    <title>Contact - Woodlands App</title>
+    <title>Tutorial - Woodlands App</title>
 </head>
 
 <body>
@@ -24,7 +25,8 @@
                         <a class="nav-link active" href="/"><i class="fas fa-home"></i>&nbsp;&nbsp;Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/tutorial/index.html"><i class="fas fa-book"></i>&nbsp;&nbsp;Tutorial</a>
+                        <a class="nav-link" href="/tutorial/index.html"><i
+                                class="fas fa-book"></i>&nbsp;&nbsp;Tutorial</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/faq.html"><i class="fas fa-question-circle"></i>&nbsp;&nbsp;FAQ</a>
@@ -40,46 +42,148 @@
                     </li>
                 </ul>
             </div>
-            
+
             <a class="navbar-brand" href="/"><img height="30px" src="/assets/img/logo.png" alt=""></a>
         </div>
     </nav>
 
     <div class="container px-5">
         <h1>Tutorial</h1>
-        <ul class="nav nav-pills" id="myTab" role="tablist">
-            <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Announcements & Events</button>
+        <p>Select a page and we'll give you helpful information and tips as to how that page works and what you can do!
+        </p>
+        <ul class="nav nav-pills flex-column flex-sm-row mt-3" id="tabs">
+            <li class="flex-sm-fill text-sm-center nav-item" role="presentation">
+                <button class="nav-link active" id="announcements-tab" data-bs-toggle="tab"
+                    data-bs-target="#announcements" type="button">Announcements & Events</button>
             </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Cafeteria</button>
+            <li class="flex-sm-fill text-sm-center nav-item" role="presentation">
+                <button class="nav-link" id="cafeteria-tab" data-bs-toggle="tab" data-bs-target="#cafeteria"
+                    type="button">Cafeteria</button>
             </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Song Requests</button>
+            <li class="flex-sm-fill text-sm-center nav-item" role="presentation">
+                <button class="nav-link" id="song-tab" data-bs-toggle="tab" data-bs-target="#song" type="button">Song
+                    Requests</button>
             </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Clubs & Teams</button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">General Information</button>
-              </li>
-          </ul>
-          <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                LOL
+            <li class="flex-sm-fill text-sm-center nav-item" role="presentation">
+                <button class="nav-link" id="clubs-tab" data-bs-toggle="tab" data-bs-target="#clubs" type="button">Clubs
+                    & Teams</button>
+            </li>
+            <li class="flex-sm-fill text-sm-center nav-item" role="presentation">
+                <button class="nav-link" id="info-tab" data-bs-toggle="tab" data-bs-target="#info" type="button">General
+                    Information</button>
+            </li>
+        </ul>
+        <div class="tab-content mt-3" id="tab-content">
+            <div class="tab-pane fade show active" id="announcements">
+
+                        <h5>Announcements & Events</h5>
+                            <p>The announcements and events page is the "main" page and features announcements (with the
+                                background colour grey) and upcoming events (with the background colour blue). You can
+                                also search for and filter announcements and events. Clicking select announcements and
+                                events will show the expanded text of it.</p>
+                            <div class="row row-cols-2 row-cols-md-3 masonry-needed">
+                                <div class="col mb-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <img width="100%" src="/assets/img/tutorial/announcements1.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <img width="100%" src="/assets/img/tutorial/collapsedannouncement.png"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <img width="100%" src="/assets/img/tutorial/expandedannouncement.png"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <img width="100%" src="/assets/img/tutorial/expandedannouncement.png"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <img width="100%" src="/assets/img/tutorial/expandedannouncement.png"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <img width="100%" src="/assets/img/tutorial/expandedannouncement.png"
+                                                alt="">
+                                        </div>
+
+                                    </div>
+                                </div>
+                </div>
             </div>
-            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                LOL
+            <div class="tab-pane fade" id="cafeteria">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Cafeteria</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
             </div>
-            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                abeedo balasubbu
+            <div class="tab-pane fade" id="song">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Song Requests</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
             </div>
-          </div>
-          
+            <div class="tab-pane fade" id="clubs">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Clubs & Teams</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="info">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">General Information</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <script src="/assets/js/bootstrap.min.js"></script>
     <script src="/assets/js/main.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+    <script>
+
+        const all_masonry = document.querySelectorAll('.masonry-needed');
+        const msnry = new Masonry('.masonry-needed', {
+            percentPosition: true,
+        });
+        imagesLoaded('#container', function () {
+            msnry.layout();
+        })
+
+    </script>
 
 </body>
 
