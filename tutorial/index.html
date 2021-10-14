@@ -53,90 +53,114 @@
         </p>
         <ul class="nav nav-pills flex-column flex-sm-row mt-3" id="tabs">
             <li class="flex-sm-fill text-sm-center nav-item" role="presentation">
-                <button class="nav-link active" id="announcements-tab" data-bs-toggle="tab"
-                    data-bs-target="#announcements" type="button">Announcements & Events</button>
+                <button class="nav-link active" id="announcements-tab"
+                    data-bs-toggle="tab" data-bs-target="#announcements" type="button">Announcements & Events</button>
             </li>
             <li class="flex-sm-fill text-sm-center nav-item" role="presentation">
-                <button class="nav-link" id="cafeteria-tab" data-bs-toggle="tab" data-bs-target="#cafeteria"
-                    type="button">Cafeteria</button>
+                <button class="nav-link" id="cafeteria-tab"
+                    data-bs-toggle="tab" data-bs-target="#cafeteria" type="button">Cafeteria</button>
             </li>
             <li class="flex-sm-fill text-sm-center nav-item" role="presentation">
-                <button class="nav-link" id="song-tab" data-bs-toggle="tab" data-bs-target="#song" type="button">Song
+                <button class="nav-link" id="song-tab" data-bs-toggle="tab"
+                    data-bs-target="#song" type="button">Song
                     Requests</button>
             </li>
             <li class="flex-sm-fill text-sm-center nav-item" role="presentation">
-                <button class="nav-link" id="clubs-tab" data-bs-toggle="tab" data-bs-target="#clubs" type="button">Clubs
+                <button class="nav-link" id="clubs-tab" data-bs-toggle="tab"
+                    data-bs-target="#clubs" type="button">Clubs
                     & Teams</button>
             </li>
             <li class="flex-sm-fill text-sm-center nav-item" role="presentation">
-                <button class="nav-link" id="info-tab" data-bs-toggle="tab" data-bs-target="#info" type="button">General
+                <button class="nav-link" id="info-tab" data-bs-toggle="tab"
+                    data-bs-target="#info" type="button">General
                     Information</button>
             </li>
         </ul>
         <div class="tab-content mt-3" id="tab-content">
             <div class="tab-pane fade show active" id="announcements">
 
-                        <h5>Announcements & Events</h5>
-                            <p>The announcements and events page is the "main" page and features announcements (with the
-                                background colour grey) and upcoming events (with the background colour blue). You can
-                                also search for and filter announcements and events. Clicking select announcements and
-                                events will show the expanded text of it.</p>
-                            <div class="row row-cols-2 row-cols-md-3 masonry-needed">
-                                <div class="col mb-3">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <img width="100%" src="/assets/img/tutorial/announcements1.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col mb-3">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <img width="100%" src="/assets/img/tutorial/collapsedannouncement.png"
-                                                alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col mb-3">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <img width="100%" src="/assets/img/tutorial/expandedannouncement.png"
-                                                alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col mb-3">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <img width="100%" src="/assets/img/tutorial/expandedannouncement.png"
-                                                alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col mb-3">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <img width="100%" src="/assets/img/tutorial/expandedannouncement.png"
-                                                alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col mb-3">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <img width="100%" src="/assets/img/tutorial/expandedannouncement.png"
-                                                alt="">
-                                        </div>
+                <h5>Announcements & Events</h5>
+                <p>The announcements and events page is the "main" page and features announcements (with the
+                    background colour grey) and upcoming events (with the background colour blue). You can
+                    also search for and filter announcements and events. Clicking select announcements and
+                    events will show the expanded text of it.</p>
+                <div class="row row-cols-2 row-cols-md-3 masonry-needed" id="masonry-announcements">
+                    <div class="col mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img width="100%" src="/assets/img/tutorial/announcements1.png" alt="">
+                                <p class="card-text mt-2 fs-5">The announcements & events page.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img width="100%" src="/assets/img/tutorial/collapsedannouncement.png" alt="">
+                                <p class="card-text mt-2 fs-5">A collapsed announcement card (notice the grey
+                                    background).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img width="100%" src="/assets/img/tutorial/expandedannouncement.png" alt="">
+                                <p class="card-text mt-2 fs-5">An expanded announcement card. Click the card to toggle
+                                    expansion.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img width="100%" src="/assets/img/tutorial/collapsedevent.png" alt="">
+                                <p class="card-text mt-2 fs-5">A collapsed event card (notice the blue
+                                    background).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img width="100%" src="/assets/img/tutorial/expandedevent.png" alt="">
+                                <p class="card-text mt-2 fs-5">An expanded event card. Click the card to toggle
+                                    expansion.</p>
+                            </div>
+                        </div>
+                    </div>
 
-                                    </div>
-                                </div>
                 </div>
             </div>
             <div class="tab-pane fade" id="cafeteria">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Cafeteria</h5>
-                        <p class="card-text"></p>
+                <h5>Cafeteria</h5>
+                <p>The cafeteria page contains a list of daily specials for each day and a menu, along with each food
+                    item's
+                    price and any allergens it contains.</p>
+                <div class="row row-cols-2 row-cols-md-3 masonry-needed" id="masonry-cafeteria">
+                    <div class="col mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img width="100%" src="/assets/img/tutorial/cafeteria1.png" alt="">
+                                <p class="card-text mt-2 fs-5">The cafeteria page.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img width="100%" src="/assets/img/tutorial/firstsidecafeteria.png" alt="">
+                                <p class="card-text mt-2 fs-5">A menu card.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img width="100%" src="/assets/img/tutorial/backsidecafe.png" alt="">
+                                <p class="card-text mt-2 fs-5">A flipped menu card (click a card to toggle flip).</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -176,11 +200,32 @@
     <script>
 
         const all_masonry = document.querySelectorAll('.masonry-needed');
-        const msnry = new Masonry('.masonry-needed', {
-            percentPosition: true,
-        });
-        imagesLoaded('#container', function () {
-            msnry.layout();
+
+
+
+        function make_masonry() {
+            imagesLoaded(all_masonry, function () {
+                for (masonry_element of all_masonry) {
+                    const cur_masonry = new Masonry(masonry_element, {
+                        percentPosition: true,
+                    })
+                }
+            })
+        }
+
+        
+        for (elem of document.querySelectorAll('button[data-bs-toggle="tab"]')) {
+            elem.addEventListener('shown.bs.tab', make_masonry);
+        }
+
+
+        imagesLoaded(all_masonry, function () {
+            for (masonry of all_masonry) {
+                const cur_masonry = new Masonry(masonry, {
+                    percentPosition: true,
+                })
+                cur_masonry.layout()
+            }
         })
 
     </script>
